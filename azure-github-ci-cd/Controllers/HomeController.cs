@@ -12,7 +12,7 @@ namespace azure_github_ci_cd.Controllers
     {
         public HomeController()
         {
-            //test feature
+            //test master
         }
 
         public IActionResult Index()
