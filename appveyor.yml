@@ -22,7 +22,7 @@
   before_build:
     - cmd: dotnet restore
   test_script:
-    - cmd: dotnet test I:\web\angular4\Appveyer\azure-github-ci-cd\azure-github-ci-cd.Tests\azure-github-ci-cd.Tests.csproj  --configuration Release
+    - cmd: dotnet test C:\projects\azure-github-ci-cd\azure-github-ci-cd.Tests\azure-github-ci-cd.Tests.csproj  --configuration Release
 
 # configuration for all branches starting from "dev-"
 # build in Debug mode and deploy locally for testing
@@ -42,4 +42,4 @@
   before_build:
     - cmd: dotnet restore
   test_script:
-    - cmd: dotnet test I:\web\angular4\Appveyer\azure-github-ci-cd\azure-github-ci-cd.Tests\azure-github-ci-cd.Tests.csproj --configuration Debug
+    - cmd: dotnet test C:\projects\azure-github-ci-cd\azure-github-ci-cd.Tests\azure-github-ci-cd.Tests.csproj --configuration Debug
